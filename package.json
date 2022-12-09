@@ -1,0 +1,16 @@
+{
+  "name": "svr_phone",
+  "license": "MIT",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "cd web && yarn && yarn build",
+    "postinstall": "cd web && yarn && yarn build"
+  },
+  "dependencies": {
+    "@citizenfx/client": "^2.0.6115-1",
+    "@citizenfx/server": "^2.0.6115-1",
+    "@types/node": "^18.11.10"
+  }
+}
