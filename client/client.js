@@ -24,6 +24,7 @@ const sendReactMessage = (action, data) => {
     );
 };
 
+// Register Command exemple
 RegisterCommand("phone-show", () => {
     getPlayerData((playerData) => {
         console.log("phone-show: checking if player has a phone number active");
@@ -42,15 +43,6 @@ onNet("phone-show", (data) => {
     } else {
         console.log("phone-show: player don't have a phone number");
     }
-});
-
-// Register Command Example
-RegisterCommand("phone-create-number", () => {
-    getPlayerData((playerData) => {
-        console.log("phone-create-number: creating phone number");
-
-        emitNet("phone-create-number", playerData);
-    });
 });
 
 // NUI Call Example
