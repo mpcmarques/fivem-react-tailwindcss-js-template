@@ -1,6 +1,6 @@
 # FiveM React, Tailwind and Vite module template
 
-Based on [mpcmarques/react-tailwind-i18next-starter](https://github.com/mpcmarques/svelte-vite-tailwindcss-i18next-starter)
+Based on [mpcmarques/react-tailwind-i18next-starter](https://github.com/mpcmarques/react-vite-tailwindcss-i18next-starter)
 
 A starter template for a FiveM module using:
 
