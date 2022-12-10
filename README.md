@@ -1,6 +1,6 @@
 # FiveM React, Tailwind and Vite module template
 
-Based on mpcmarques/react-tailwind-i18next-starter
+Based on [mpcmarques/react-vite-tailwindcss-i18next-starter](https://github.com/mpcmarques/react-vite-tailwindcss-i18next-starter)
 
 A starter template for a FiveM module using:
 
@@ -13,6 +13,19 @@ Also they come with prettier and eslint configured.
 
 # How to use
 
-Clone the repository, run yarn,
-after that, open a terminal in the web folder and run yarn start
+## installing dependencies
+
+Clone the repository, run yarn
+
+## running on browser
+
+open a terminal in the web folder and run yarn start (npm run start)
+
+## running on server
+
+open a terminal in the web folder and run yarn start:game (npm run start:game)
+
+## building
+
+open a terminal in the web folder and run yarn build (npm run build)
 
