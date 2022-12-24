@@ -3,7 +3,7 @@ fx_version 'cerulean'
 games {"gta5"}
 
 author "Codex <mateus@codexfactory.com.br>"
-description "Phone Module"
+description "React Module"
 version '1.0.0'
 
 lua54 'yes'
